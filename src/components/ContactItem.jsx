@@ -7,8 +7,8 @@ function ContactItem({ contact, onEdit, onDelete }) {
         <p>{contact.telephone}</p>
       </div>
       <div className="contact-actions">
-        <button className="btn-edit" onClick={() => onEdit(contact)}>✏️ Modifier</button>
-        <button className="btn-delete" onClick={() => onDelete(contact.id)}>🗑️ Supprimer</button>
+        <button className="btn-edit" onClick={() => onEdit(contact)}>  Modifier</button>
+        <button className="btn-delete" onClick={() => onDelete(contact.id)}> Supprimer</button>
       </div>
     </div>
   )
